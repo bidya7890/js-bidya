@@ -56,3 +56,60 @@ let stringNumber= String(someNumber)
 console.log(stringNumber)
 console.log(typeof stringNumber)
 //output is 33 (in string), string
+
+
+
+// OPERATIONS //
+
+// let value =3
+// let negvalue= -value
+// console.log(negvalue)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**2)
+// console.log(2*3)
+//console.log(2%3)
+
+//Tricks//
+
+// let str1="hello"
+// let str2=" bidya"
+// let str3=str1+str2
+// console.log(str3)
+//OUTPUT IS hello bidya
+
+// console.log("1"+2)
+// console.log(1+"2")
+// console.log("1"+"2")
+// console.log("1"+2+2)
+// console.log(2+2+"1")
+
+//output is 12,12,12,122,41
+// console.log(true)
+// console.log(+true)
+//output is true,1
+//console.log(true+) //invalid js wont recognise
+
+// console.log(+"")
+//output is 0
+
+// let gameCounter =100
+// gameCounter++
+// console.log(gameCounter)
+
+//output is 101
+
+// let gameCounter1=100
+// ++gameCounter1
+// console.log(gameCounter1)
+
+//output is 101
+
+
+
+
+
+
+
