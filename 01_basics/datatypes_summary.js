@@ -18,10 +18,12 @@ const id = Symbol('123')
 const anotherId=Symbol('123')
 //return type symbol
 
-console.log(id===anotherId)
+//console.log(id===anotherId)
 //output is false as they are different even if the value is different
 
 const bigNumber=348888888878348732784n
+
+//console.log(typeof bigNumber)
 //n is used to use big Int
 
 
@@ -44,9 +46,8 @@ const myFunction=function(){
     console.log("hello world")
 }
 
-console.log(typeof bigNumber)
-console.log(myFunction) // functions returns object functions
-
+//console.log(myFunction) // functions returns object functions
+console.log(myFunction())
 // arrays and objects returns function 
 
 
