@@ -60,5 +60,15 @@ console.log(newDate)
 console.log(newDate.getDay())
 
 
+console.log(newDate.getMonth()+1)
+
+//`${newDate.getDay()} and the time  `
+
+//let myOwnDate=newDate.toLocaleString('default',{
+  //  weekday:"long",
+    //day:"2-digit",
+    
+//})
 
 
+//we define object inside in this locale string , default = internalisation , customisation
