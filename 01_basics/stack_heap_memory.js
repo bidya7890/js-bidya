@@ -11,12 +11,24 @@
 
 //example
 
-let myYouTubename="bidya.com"
+// let myYouTubename="bidya.com"
 
-// this will go in stack 
 
-let anothername= myYouTubename
+// // this will go in stack 
 
-anothername= "chaiaurcode"
-console.log(myYouTubename)
-console.log(anothername)
+// let anothername= myYouTubename
+
+// anothername= "chaiaurcode"
+// console.log(myYouTubename)
+// console.log(anothername)
+
+let userOne ={
+    email:"user@gooogle.com",
+    upi:"user@ybl.com"
+}
+
+let userTwo = userOne
+
+userTwo.email= "bidya@google.com"
+console.log(userOne.email)
+console.log(userTwo.email)
