@@ -72,3 +72,4 @@ console.log(newDate.getMonth()+1)
 
 
 //we define object inside in this locale string , default = internalisation , customisation
+//with the dates
