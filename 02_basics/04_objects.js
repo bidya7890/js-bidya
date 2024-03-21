@@ -77,28 +77,85 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser)
+//console.log(tinderUser)
 
 //to give the values of all the keys
 
 
-console.log(Object.keys(tinderUser))
+//console.log(Object.keys(tinderUser))
 
 // output is[ 'id', 'name', 'isLoggedIn' ]
 
 // to know the values
-console.log(Object.values(tinderUser))
+//console.log(Object.values(tinderUser))
 
 //output is [ '123abc', 'Sammy', false ]
 
-console.log(Object.entries(tinderUser))
+//console.log(Object.entries(tinderUser))
 
 // It gives keys and its respective values in nested arrays as follows
 //[ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+//console.log(tinderUser.hasOwnProperty('isLoggedIn'))
 
 //output is true, sometimes in objects there are nested loops, and to get a certain values we hae to go through from these nested loops to get a value hence to check weather that value exists or not we check with the hasOwnProperty
+
+// objects discssuion == api discussion
+
+//destructuring of Object
+
+const course ={
+
+    coursename:"js in hindi",
+    price : "999",
+    courseInstructor :"bidya"
+}
+
+//course.courseInstructor 
+
+//simple way as below
+
+const{courseInstructor}= course
+console.log(courseInstructor)
+//output is bidya
+
+//Similarly
+
+const{courseInstructor:ins}=course
+console.log(ins)
+
+//output is bidya as now it is destructured
+
+
+// const navbar=({company})=>{
+
+// }
+
+// navbar(company="bidya")
+
+
+// json looks like {}
+
+// {
+//     "name":"bidya",
+//     "coursename":"js in hindi",
+//     "price" :"free"
+
+// }
+// in object we give name but in json they are simple datas key value type where both are treated as strings
+
+//sometimes we get apis in object form
+
+[
+    {},
+    {}
+]
+
+
+
+
+
+
 
 
 
