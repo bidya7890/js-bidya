@@ -99,6 +99,7 @@ console.log(calculateCartPrice(200,2000,3000))
 
 //after using val1,val2 before num1 and rest operator he values 200 and 2000 are stored in those varaibles hence 3000 is only returned
 
+//++++++++++++++++++++++++ V E R Y I M P O R T A N T++++++++++++++++++++++++++++++++++++++++PLEASE NOTE IT
 const user ={
     userName: "bidya",
     price:199
@@ -121,6 +122,21 @@ handleObject({
     price:399
 
 })
+
+const myNewArray=[200,300,400]
+// make a function who accepts array and returns its 2nd value
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+console.log(returnSecondValue(myNewArray))
+//output is 300
+
+console.log(returnSecondValue([200,300,400]))
+//output is same
+
+
 
 
 
